@@ -1,0 +1,3 @@
+nohup ./build/http_server > ./build/log.txt 2>&1 &
+nohup ./build/oj_server > ./build/log.txt 2>&1 &
+./build/compile_server 8088 > ./log_8088.txt 2>&1 &
